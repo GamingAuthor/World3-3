@@ -10,7 +10,7 @@ public class LosAngeles extends City{
 	@Override
 	double getAnnualTaxes() {
 		double tax = 0.0;
-		tax = (population*(growthRate*.5));
+		tax = 3896480;
 		return tax;
 	}
 
