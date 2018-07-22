@@ -9,11 +9,10 @@ public class TestInterfaces {
 	@Test
 	public void testBackwardsString() {
 		SpecialString bs = new BackwardsString("This is a test");
-		System.out.println(bs + "jb");
-		
+		System.out.println(bs);
 		assertEquals("tset a si sihT", bs.toString());
 	}
-	
+
 	@Test
 	public void testMixedCapsString() {
 		SpecialString mcs = new MixedCapsString("This is also a test");
